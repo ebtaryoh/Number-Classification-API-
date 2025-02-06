@@ -11,7 +11,7 @@ An API that takes a number and returns interesting mathematical properties about
 - Fetches a **fun fact** about the number from the Numbers API
 
 ## API Endpoint
-**Base URL:** `<your-deployment-url>`
+**Base URL:** `<https://number-classification-api-nu.vercel.app/>`
 
 ### `GET /api/classify-number?number={number}`
 #### Request Parameters:
@@ -19,7 +19,7 @@ An API that takes a number and returns interesting mathematical properties about
 
 #### Example Request:
 ```bash
-curl "<your-deployment-url>/api/classify-number?number=371"
+curl "https://number-classification-api-nu.vercel.app/api/classify-number?number=371"
 ```
 
 #### Success Response (200 OK):
@@ -46,8 +46,8 @@ curl "<your-deployment-url>/api/classify-number?number=371"
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/classify-number-api.git
-cd classify-number-api
+git clone https://github.com/ebtaryoh/Number-Classification-API-
+cd number-classification-api
 ```
 
 ### 2. Install Dependencies
@@ -59,7 +59,7 @@ npm install
 ```bash
 node index.js
 ```
-The API will be available at `http://localhost:3000`.
+The API will be available at `http://localhost:5000`.
 
 ## Deployment
 You can deploy this API to **Railway, Render, Vercel, or any Node.js hosting platform.**
